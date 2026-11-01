@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Tue, 27 Oct 2026 16:57:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 10:39:02 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ub-mode</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/ub-mode.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/ub-mode.html</guid>
+      <description>Skill per coding agent (Claude Code, Cursor, Grok) di Robert C. Martin «Uncle Bob» che impone disciplina da software engineering quando l'agente scrive o modifica codice. Deriva in parte dalle regole di poteto (poteto-mode / pstack), ridotte e affiancate da quality gate deterministici. Tre fasi: «First Make it Work» (Laziness Protocol, TDD, riprogettare dai primi principi, attaccare la premessa, sottrarre prima di aggiungere, modellare il dominio, disciplina dei confini e dei tipi, operazioni idempotenti); «Then Make it Right» (correggere le cause, lavoro in unità verificabili, testare il comportamento e non l'implementazione, refactoring) con i tool companion crapper (complessità ciclomatica × copertura, CRAP &lt; 10 per funzione), dryer (duplicazione strutturale &lt; 0.8) e mutator (mutation testing: coprire il non coperto, uccidere i mutanti sopravvissuti, cancellare il codice morto), più uml-viewer per visualizzare componenti e metriche; «Practice» (tenere un log, proteggere la finestra di contesto, pulizia dei worktree, commit piccoli e ordinati). Si installa copiando SKILL.md in ~/.claude/skills/ub-mode/ e si invoca con /ub-mode. Nota: repo senza licenza dichiarata. Novembre 2026.</description>
+      <category>Developer Tools</category>
+      <pubDate>Sun, 01 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>eta (Claude Code mod)</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-code-eta.html</link>
@@ -396,14 +404,6 @@
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill-sh.html</link>
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill-sh.html</guid>
       <description>Marketplace di skill per Claude Code che assegna un security score a ogni skill, fondamentale quando l'AI deve accedere a file o account. Buon filtro qualitativo rispetto alle liste non moderate.</description>
-      <category>Resources</category>
-      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agensi.io</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agensi-io.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/agensi-io.html</guid>
-      <description>Marketplace di skill AI con revisione di sicurezza obbligatoria prima dell'approvazione, suddivise per categoria d'uso. Include skill gratuite e a pagamento, utile quando l'agente deve accedere a file o account sensibili.</description>
       <category>Resources</category>
       <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
     </item>
