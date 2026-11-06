@@ -2377,6 +2377,25 @@ window.TOOLS_DATA = [
     "added_at": "2026-10-27"
   },
   {
+    "id": "ub-mode",
+    "name": "ub-mode",
+    "description": "Skill per coding agent (Claude Code, Cursor, Grok) di Robert C. Martin «Uncle Bob» che impone disciplina da software engineering quando l'agente scrive o modifica codice. Deriva in parte dalle regole di poteto (poteto-mode / pstack), ridotte e affiancate da quality gate deterministici. Tre fasi: «First Make it Work» (Laziness Protocol, TDD, riprogettare dai primi principi, attaccare la premessa, sottrarre prima di aggiungere, modellare il dominio, disciplina dei confini e dei tipi, operazioni idempotenti); «Then Make it Right» (correggere le cause, lavoro in unità verificabili, testare il comportamento e non l'implementazione, refactoring) con i tool companion crapper (complessità ciclomatica × copertura, CRAP < 10 per funzione), dryer (duplicazione strutturale < 0.8) e mutator (mutation testing: coprire il non coperto, uccidere i mutanti sopravvissuti, cancellare il codice morto), più uml-viewer per visualizzare componenti e metriche; «Practice» (tenere un log, proteggere la finestra di contesto, pulizia dei worktree, commit piccoli e ordinati). Si installa copiando SKILL.md in ~/.claude/skills/ub-mode/ e si invoca con /ub-mode. Nota: repo senza licenza dichiarata. Novembre 2026.",
+    "url": "https://github.com/unclebob/ub-mode",
+    "category": "developer-tools",
+    "tags": [
+      "claude-code",
+      "skill",
+      "tdd",
+      "code-quality",
+      "mutation-testing",
+      "refactoring",
+      "clean-code"
+    ],
+    "pricing": "free",
+    "type": "tool",
+    "added_at": "2026-11-01"
+  },
+  {
     "id": "agent-qa",
     "name": "agent-qa",
     "description": "Agente QA con memoria memidex e auto-miglioramento per test in linguaggio naturale su web, Android e iOS, con CLI, dashboard, MCP e Agent Skills. FSL-1.1-ALv2: nessun costo software per gli usi consentiti; i provider configurati possono essere a pagamento.",
